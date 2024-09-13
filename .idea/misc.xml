@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="Black">
     <option name="sdkName" value="Python 3.10 (wukong1)" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (wukong1)" project-jdk-type="Python SDK" />
+=======
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+>>>>>>> e549145ffd8e8523bfe424cab7a1f69087fb4269
 </project>

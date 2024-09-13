@@ -1,0 +1,17 @@
+// Home.jsx 或 Home.tsx
+import React from 'react';
+
+// 如果你有特定样式文件，也可以导入样式文件
+// import './Home.css';
+
+const Home = () => {
+    return (
+        <div>
+            <h1>欢迎来到主页!</h1>
+            <p>这是一个受保护的页面，只有授权用户可以访问。</p>
+            {/* 添加更多内容 */}
+        </div>
+    );
+};
+
+export default Home;
