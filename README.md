@@ -1,2 +1,2 @@
 # WUKONG
-react+typescript+flask，试试毕设？
+react+typescript+flask
