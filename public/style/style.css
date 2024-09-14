@@ -6,6 +6,7 @@ html, body {
 
 /* 设置背景图片 */
 body {
+
     background-size: cover; /* 图片铺满整个页面 */
     overflow: hidden; /* 禁用滚动条 */
 }

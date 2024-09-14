@@ -1,18 +1,21 @@
 import React, {CSSProperties} from "react";
-import {Navigate} from "react-router-dom";
+import {Navigate,useNavigate} from "react-router-dom";
 
 const FrontPage = () => {
     const token = localStorage.getItem("token");
-
+    const navigate=useNavigate();
     if (!token) {
         // 如果没有令牌，重定向到登录页面
         return <Navigate to="/login"/>;
     }
-
+    const goHome = () =>{
+        localStorage.removeItem("token");
+        navigate("/login");
+    }
     return (
         <div style={containerStyle}>
             <div>
-                <button style={xxx}>退出登录</button>
+                <button style={xxx} onClick={goHome}>退出登录</button>
             </div>
             <div style={qqq}>
                 欢迎来到这里！
